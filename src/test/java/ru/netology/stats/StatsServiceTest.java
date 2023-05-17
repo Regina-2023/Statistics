@@ -18,7 +18,7 @@ class StatsServiceTest {
         Assertions.assertEquals(expectedTotal, actualTotal);
     }
 
-//
+    //
     @Test
     public void testAverage() {
         StatsService service = new StatsService();

@@ -33,6 +33,6 @@
                     <failIfNoTests>true</failIfNoTests>
                 </configuration>
             </plugin>
-        </plugins>>
+        </plugins>
     </build>
 </project>
