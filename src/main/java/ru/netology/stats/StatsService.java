@@ -45,9 +45,10 @@ public class StatsService {
     //п.5 - кол-во месяцев, в которых продажи были ниже среднего
     public int minAverageSales(long[] sales) {
         int minAverageMonth = 0;
+        long averageSale = averageSales(sales);
 
         for (long sale : sales) {
-            if (sale < averageSales(sales)) {
+            if (sale < averageSale) {
                 minAverageMonth++;
             }
         }
